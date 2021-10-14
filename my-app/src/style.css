@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body {
+  background-image: linear-gradient(
+      270deg,rgba(99,54,19,.52),rgba(7,6,5,.61)),url("./images/background.jpg");
+  background-position: 0 0,50% 50%;
+  background-size: auto,cover;
+}
+
+#TopMenu {
+  padding-bottom: 0;
+  background-color: transparent;
+}
+
+#TopMenuContainer{
+  width: 90%;
+}
+
+#logo {
+  height: 150px;
+}
+
+#logo:hover {
+  opacity: 75%;
+}
+
+#SubMenu {
+  background-color: black;
+  padding-bottom: 0;
+  margin: 0;
+}
+#SubMenuContainer {
+  width: 500px;
+  font-family: 'Libre Baskerville',sans-serif;
+  padding: 5px 0 0 0;
+}
+
+#SubMenu a {
+  color: #444;
+}
+
+#SubMenu a:hover {
+  color: #b6b6b6;
+}
+
+#News{
+  width: 100%;
+  background-color: rgba(255,255,255,.20);
+  height: 60px;
+  padding: 0;
+  color: #fff;
+  font-family: 'Libre Baskerville',sans-serif;
+  border-bottom: black solid 2px;
+}
+
+#News:hover {
+  background-color: rgba(0,0,0,.20);
+}
+
+#NewsContainer{
+  width: 90%;
+  padding-top: 18px;
+}
+
+#News table{
+  width: 100%;
+}
+
+#News p {
+  color: #b6b6b6;
+  text-align: center;
+}
+
+.icon {
+  color: rgba(182,144,104,.65);
+}
+
+.icon:hover {
+  color: white;
+}
+
+#AlbumLeftColumn {
+  width: 100%;
+}
+
+#Album {
+  padding-top: 50px;
+  width: 90%;
+}
+
+#AlbumRightColumn {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'PT Sans',sans-serif;
+}
+
+#AlbumRightColumn h2 {
+  font-family: 'Libre Baskerville',sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#AlbumRightColumn a {
+  color: #e4c46c;
+}
+
+#AlbumRightColumn a:hover {
+  color: white;
+}
+
+#AlbumRightColumn ol{
+  list-style-type: lower-roman;
+  display: flex;
+  flex-direction: column;
+  align-content: normal;
+  align-items: center;
+}
+
+#AlbumRightColumn li {
+  display: list-item;
+}
+
+#Album table {
+  width: 100%;
+}
+
+#Album td {
+  width: 50%;
+  vertical-align: top;
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  height: 75px;
+  margin: 10px 0 10px 0;
+  color: white;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #999;
+  background-position: 0 0,50% 54%;
+  background-size: auto,cover;
+}
+
+#button1 {
+  background-image: linear-gradient(
+      301deg,rgba(0,0,0,.8),rgba(52,30,13,.45)),url("./images/buttonbackground.png");
+}
+
+#button2 {
+  background-image: linear-gradient(
+      301deg,rgba(0,0,0,.9),rgba(52,30,13,.55)),url("./images/buttonbackground.png");
+}
+
+#button3 {
+  background-image: linear-gradient(
+      301deg,rgba(0,0,0,1),rgba(52,30,13,.65)),url("./images/buttonbackground.png");
+}
+
+#button1:hover, #button2:hover, #button3:hover {
+  background-image: linear-gradient(
+      301deg,rgba(0,0,0,0),rgba(52,30,13,.0)),url("./images/buttonbackground.png");
+}
+
+#AlbumLeftColumn p {
+  padding-top: 28px;
+  font-weight: bold;
+}
